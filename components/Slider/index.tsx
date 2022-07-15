@@ -38,10 +38,10 @@ export default function Slider () {
                 textAlign='center'
                 bgPosition='center'
                 >
-                    <Link href='/continent/europe' >
+                    <Link href='/continent' >
                         <a >
-                            <Heading color='#F5F8FA' >Europa</Heading>
-                            <Text color='#DADADA' >O continente mais antigo</Text>
+                            <Heading color='#F5F8FA' fontSize={['3xl', '4xl', '5xl']} >Europa</Heading>
+                            <Text color='#DADADA' mt={['2', '4']} fontSize={['0.8rem', '1xl', '2xl']} >O continente mais antigo</Text>
                         </a>
                     </Link>
                 </Flex>
@@ -61,8 +61,8 @@ export default function Slider () {
                 >
                     <Link href='/continent/europe' >
                         <a >
-                            <Heading color='#F5F8FA' >Europa</Heading>
-                            <Text color='#DADADA' >O continente mais antigo</Text>
+                            <Heading color='#F5F8FA' fontSize={['3xl', '4xl', '5xl']} >Europa</Heading>
+                            <Text color='#DADADA' mt={['2', '4']} fontSize={['0.8rem', '1xl', '2xl']} >O continente mais antigo</Text>
                         </a>
                     </Link>
                 </Flex>
