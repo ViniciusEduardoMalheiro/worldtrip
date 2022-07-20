@@ -34,13 +34,16 @@ export default function Header() {
                     </a>
                     </Link>
                 )}
-
+                <Link href='/' >
                 <Image src='./Logo.svg' 
                 w={['81px', '184px']}
                 alt='logo'
                 justifySelf='center'
                 gridColumn='2'
-                />
+                cursor='pointer'
+                /> 
+                </Link>
+                
             </Grid>
         </Flex>
     )

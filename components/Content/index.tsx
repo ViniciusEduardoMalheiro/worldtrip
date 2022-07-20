@@ -1,5 +1,5 @@
 import { Flex, Text, Grid } from '@chakra-ui/react'
-import Info from './info'
+import Info from '../Content/Info'
 
 export default function Descrição () {
     return (

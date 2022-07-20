@@ -2,8 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import BannerPag2 from '../components/BannerPag2'
 import Header from '../components/Header'
 import Content from '../components/Content'
-import Descrição from '../components/Content'
-import Info from '../components/Content/info'
+import Cidades from '../components/Cidades'
 
 export default function Continent () {
     return (
@@ -19,6 +18,7 @@ export default function Continent () {
         px='1rem'
         >
             <Content />
+            <Cidades />
         </Flex>
         
     </Flex>
